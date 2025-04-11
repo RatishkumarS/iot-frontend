@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/iot-frontend/static/css/main.247d574a.css",
+    "main.js": "/iot-frontend/static/js/main.ba4ef319.js",
+    "static/js/206.bac6a34a.chunk.js": "/iot-frontend/static/js/206.bac6a34a.chunk.js",
+    "static/media/bulb_off.jpg": "/iot-frontend/static/media/bulb_off.e429b6694217cd042f71.jpg",
+    "static/media/bulb_on.jpg": "/iot-frontend/static/media/bulb_on.7feaee1c9dc1da95fc82.jpg",
+    "static/media/fan.png": "/iot-frontend/static/media/fan.4decba4f7c24d9ccdb7c.png",
+    "index.html": "/iot-frontend/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.247d574a.css",
+    "static/js/main.ba4ef319.js"
+  ]
+}
