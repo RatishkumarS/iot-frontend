@@ -1,0 +1,40 @@
+.temp-comp {
+    text-align: center;
+  }
+  
+  .temp-title {
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    
+  }
+  
+  .widget {
+    border-radius: 10px;
+    background-color: #eee;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 60px;
+    height: 200px;
+    border: 2px solid #333;
+    
+  }
+  
+  .widget-fill {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  }
+  
+  .widget-label {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+  }
+  

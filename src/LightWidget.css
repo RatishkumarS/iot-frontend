@@ -1,0 +1,43 @@
+.light-widget {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ffc107; /* Yellow/orange border */
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 150px; /* Adjust as needed */
+  margin: 10px auto;
+}
+
+.bulb-img{
+  width: 80px;
+  height: 80px;
+  transition: filter 0.3s ease;
+}
+
+.glow {
+  filter: drop-shadow(0 0 15px #ffc107);
+}
+
+.light-status {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.light-percent {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.light-comp {
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+  
+}
+
+.heading{
+  text-align: center;
+}

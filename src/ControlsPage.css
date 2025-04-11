@@ -1,0 +1,154 @@
+.out-box {
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?modern-home,automation') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .boxs-content {
+    margin: 0 auto;  
+    border-radius: 10px;
+    border: 2px solid #00C9FF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+    background: #2c3e50;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    width: 50%;         
+
+  }
+
+  .control-title {
+    font-size: 3rem;
+    color: #020304;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration: underline; 
+  }
+  
+
+  .header {
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  
+  .auto-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .auto-btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    background: linear-gradient(45deg, #FF416C, #FF4B2B);
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  .ctrl {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .ctrl-btn {
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    background: linear-gradient(45deg, #00C9FF, #92FE9D);
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .ctrl-btn:disabled {
+    background: gray;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+
+  .icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+  }
+  
+
+  .light-icon.glow {
+    filter: brightness(150%);
+    animation: glow 1.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      filter: brightness(150%);
+    }
+    to {
+      filter: brightness(200%);
+    }
+  }
+  
+
+  .fan-box {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+  }
+  
+
+  .fan-bladz{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  .rotate {
+    animation: rotation 2s linear infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

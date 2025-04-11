@@ -1,0 +1,36 @@
+.darkness-widget {
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.darkness-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.darkness-contain {
+  width: 100%;
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.darkness-display {
+  height: 100%;
+  background: #333;
+  width: 0%;
+  transition: width 0.5s ease-out;
+}
+
+.darkness-value {
+  font-size: 1em;
+  color: #333;
+}
